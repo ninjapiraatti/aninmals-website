@@ -1,5 +1,15 @@
 import { createApp } from 'vue'
-import './style.css'
+import PrimeVue from 'primevue/config';
 import App from './App.vue'
+import { AninmalsPreset } from './aninmalsTheme';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.use(PrimeVue, {
+  theme: {
+    preset: AninmalsPreset,
+    options: {
+      darkModeSelector: false || 'none'
+    }
+  },
+})
+.mount('#app');
