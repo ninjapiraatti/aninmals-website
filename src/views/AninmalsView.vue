@@ -6,14 +6,16 @@
       v-for="aninmal in filteredAninmals"
       :key="aninmal.name"
       :title="aninmal.name"
-      class="aspect-square"
+      class="aspect-square relative"
       :style="`
         background: url(/assets/${aninmal.image}) no-repeat center center;
         background-size: cover;
       `"
       >
         <template #footer>
-          <p>{{ aninmal.description }}</p>
+          <div class="absolute bottom-4">
+            <p>{{ aninmal.description }}</p>
+          </div>
         </template>
       </Card>
     </div>
