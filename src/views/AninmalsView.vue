@@ -12,11 +12,8 @@
         background-size: cover;
       `"
       >
-        <template #title>
-          <h3>{{ aninmal.name }}</h3>
-        </template>
-        <template #content>
-          <p>{{ aninmal.realAnimal }}</p>
+        <template #footer>
+          <p>{{ aninmal.description }}</p>
         </template>
       </Card>
     </div>
