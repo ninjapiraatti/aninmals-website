@@ -13,7 +13,7 @@
       `"
       >
         <template #footer>
-          <div class="absolute bottom-4 text-xs">
+          <div class="absolute bottom-2 text-xs text-black bg-white left-2 p-1 opacity-60 rounded-md max-w-75">
             <p>{{ aninmal.description }}</p>
           </div>
         </template>
