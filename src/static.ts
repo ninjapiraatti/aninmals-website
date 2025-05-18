@@ -1,44 +1,64 @@
 import type { Aninmal } from '@/types';
 export const ANINMALS: Aninmal[] = [
   {
-    name: "Disco turkey",
-    realAnimal: "Peacock",
-    image: "discoturkey.jpg",
-  },
-  {
     name: "Formal chikcen",
     realAnimal: "Penguin",
-    image: "formalchikcen.jpg",
+    image: "formal_chikcen.jpg",
   },
   {
-    name: "Treefloof",
-    realAnimal: "Koala",
-    image: "treefloof.jpg",
-  },
-  {
-    name: "Danger noodle",
-    realAnimal: "Rattlesnake",
-    image: "dangernoodle.jpg",
-  },
-  {
-    name: "Sea flap flap",
-    realAnimal: "Stingray",
-    image: "seaflapflap.jpg",
-  },
-  {
-    name: "Murder log",
-    realAnimal: "Alligator",
-    image: "murderlog.jpg",
-  },
-  {
-    name: "Wizard cow",
-    realAnimal: "Mountain Goat",
-    image: "wizardcow.jpg",
+    name: "Forest gorgi",
+    realAnimal: "Fox",
+    image: "forest_corgi.jpg",
   },
   {
     name: "Danger zebra",
     realAnimal: "Tiger",
-    image: "dangerzebra.jpg",
+    image: "danger_zebra.jpg",
+  },
+  {
+    name: "Rude Honker",
+    realAnimal: "Goose",
+    image: "rude_honker.jpg",
+  },
+  {
+    name: "Grandiose gull",
+    realAnimal: "Alpatross",
+    image: "grandiose_gull.jpg",
+  },
+  {
+    name: "Mobile home lizard",
+    realAnimal: "Tortoise",
+    image: "mobile_home_lizard.jpg",
+  },
+  {
+    name: "Treefloof",
+    realAnimal: "Koala",
+    image: "",
+  },
+  {
+    name: "Disco turkey",
+    realAnimal: "Peacock",
+    image: "",
+  },
+  {
+    name: "Danger noodle",
+    realAnimal: "Rattlesnake",
+    image: "",
+  },
+  {
+    name: "Sea flap flap",
+    realAnimal: "Stingray",
+    image: "",
+  },
+  {
+    name: "Murder log",
+    realAnimal: "Alligator",
+    image: "",
+  },
+  {
+    name: "Wizard cow",
+    realAnimal: "Mountain Goat",
+    image: "",
   },
   {
     name: "Stab rabbit",
@@ -48,7 +68,7 @@ export const ANINMALS: Aninmal[] = [
   {
     name: "Fart squirrel",
     realAnimal: "Skunk",
-    image: "fartsquirrel.jpg",
+    image: "",
   },
   {
     name: "Blub blub doggo",
@@ -63,7 +83,7 @@ export const ANINMALS: Aninmal[] = [
   {
     name: "Aquatic sock puppet",
     realAnimal: "Muray eel",
-    image: "aquaticsockpuppet.jpg",
+    image: "",
   },
   {
     name: "Water pistachio",
@@ -96,11 +116,6 @@ export const ANINMALS: Aninmal[] = [
     image: "",
   },
   {
-    name: "Forest corgi",
-    realAnimal: "Fox",
-    image: "forestcorgi.jpg",
-  },
-  {
     name: "Trash panda",
     realAnimal: "Raccoon",
     image: "",
@@ -129,11 +144,6 @@ export const ANINMALS: Aninmal[] = [
     name: "Dirt Noodol",
     realAnimal: "Worm",
     image: "",
-  },
-  {
-    name: "Rude Honker",
-    realAnimal: "Goose",
-    image: "rudehonker.jpg",
   },
   {
     name: "Cave Pupper",
